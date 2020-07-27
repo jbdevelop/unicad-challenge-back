@@ -10,15 +10,19 @@ module.exports = {
       },
       client: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
       deliveryDate: {
         type: Sequelize.DATE,
+        allowNull: false,
       },
       startPoint: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
       endPoint: {
         type: Sequelize.STRING,
+        allowNull: false,
       },
       createdAt: {
         allowNull: false,

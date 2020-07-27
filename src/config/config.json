@@ -1,23 +1,34 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "docker",
+    "username": "jbdev",
+    "password": "123qweasd",
     "database": "carrier",
-    "host": "localhost",
-    "dialect": "postgres"
+    "host": "mysql669.umbler.com",
+    "port": 41890,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "connectTimeout": 60000
+    }
   },
   "test": {
-    "username": "postgres",
-    "password": "docker",
+    "username": "jbdev",
+    "password": "123qweasd",
     "database": "carrier",
-    "host": "localhost",
-    "dialect": "postgres"
+    "host": "mysql669.umbler.com",
+    "port": 41890,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "connectTimeout": 60000
+    }
   },
   "production": {
-    "username": "postgres",
-    "password": "docker",
+    "username": "jbdev",
+    "password": "123qweasd",
     "database": "carrier",
-    "host": "localhost",
-    "dialect": "postgres"
+    "host": "mysql669.umbler.com",    
+    "dialect": "mysql",
+    "dialectOptions": {
+      "connectTimeout": 60000
+    }
   }
 }
